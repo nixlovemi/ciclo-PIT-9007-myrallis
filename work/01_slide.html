@@ -46,13 +46,7 @@
             class="main page page-last"
             style="background-image: url(img/4-min.jpg)"
             id="dv-4"
-        >
-            <!--
-            <div class="button-1 button" data-id="1"></div>
-            <div class="button-2 button" data-id="2"></div>
-            <div class="button-3 button" data-id="3"></div>
-            -->
-        </div>
+        ></div>
 
         <!-- Page 1 Modal 1 -->
         <div id="modal-1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -208,7 +202,35 @@
                     <button class="close-button" data-dismiss="modal"></button>
 
                     <div class="modal-body">
+                        <div class="button-popup-11" data-toggle="modal" data-target="#modal-11" data-dismiss="modal"></div>
                         <img class="img-fluid" src="img/3-modal-5.jpg" />
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video Modal -->
+        <div id="modal-11" class="modal fade rounded-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <button class="close-button" data-dismiss="modal"></button>
+
+                    <div class="modal-body">
+                        <!--
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="img/NASOAR_VIDEO_COMPARATIVO.mp4" sandbox></iframe>
+                        </div>
+                        -->
+
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <video id="myVideoPlayer" controls="true" class="embed-responsive-item">
+                                <source src="img/NASOAR_VIDEO_COMPARATIVO.mp4" type="video/mp4" />
+                            </video>
+                        </div>                        
                     </div>
 
                     <div class="modal-footer">
