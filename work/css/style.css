@@ -18,14 +18,6 @@ html, body, .main {
     padding: 0;
 }
 
-.page {
-    border-bottom: 3px solid #000;
-}
-
-.page-last {
-    border-bottom: none !important;
-}
-
 .rounded-modal .modal-body img,
 .rounded-modal .modal-content  {
     border-radius: 25px !important; 
@@ -207,6 +199,40 @@ html, body, .main {
     left: 28%;
     top: 84%;
     cursor: pointer;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #33333311;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8px;
+    box-sizing: border-box;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1px;
+}
+
+.square {
+    padding: 5px 10px;
+    background-color: #0095ab; /* Cor da div quadrada */
+}
+
+.left-square {
+    float: left; /* Coloca a div quadrada à esquerda */
+}
+
+.right-square {
+    float: right; /* Coloca a div quadrada à direita */
 }
 
 @media (max-width: 575px) {

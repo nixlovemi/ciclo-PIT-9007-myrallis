@@ -7,6 +7,15 @@
         <style></style>
     </head>
     <body>
+        <div class="navbar">
+            <a href="javascript:;" class="left-square square a-move-left">
+                &larr;
+            </a>
+            <a href="javascript:;" class="right-square square a-move-right">
+                &rarr;
+            </a>
+        </div>
+        
         <!-- Page 1 -->
         <div
             class="main page"
@@ -19,7 +28,7 @@
         <!-- Page 2 -->
         <div
             class="main page"
-            style="background-image: url(img/2-min.jpg)"
+            style="background-image:url(img/2-min.jpg); display:none;"
             id="dv-2"
         >
             <div class="button-popup-2" data-toggle="modal" data-target="#modal-2"></div>
@@ -31,7 +40,7 @@
         <!-- Page 3 -->
         <div
             class="main page"
-            style="background-image: url(img/3-min.jpg)"
+            style="background-image:url(img/3-min.jpg); display:none;"
             id="dv-3"
         >
             <div class="button-popup-6" data-toggle="modal" data-target="#modal-6"></div>
@@ -44,7 +53,7 @@
         <!-- Page 4 -->
         <div
             class="main page page-last"
-            style="background-image: url(img/4-min.jpg)"
+            style="background-image:url(img/4-min.jpg);  display:none;"
             id="dv-4"
         ></div>
 
@@ -219,13 +228,7 @@
                 <div class="modal-content">
                     <button class="close-button" data-dismiss="modal"></button>
 
-                    <div class="modal-body">
-                        <!--
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" src="img/NASOAR_VIDEO_COMPARATIVO.mp4" sandbox></iframe>
-                        </div>
-                        -->
-
+                    <div class="modal-body pb-4">
                         <div class="embed-responsive embed-responsive-16by9">
                             <video id="myVideoPlayer" controls="true" class="embed-responsive-item">
                                 <source src="img/NASOAR_VIDEO_COMPARATIVO.mp4" type="video/mp4" />
