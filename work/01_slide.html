@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>VA Nasoar</title>
+        <title>VA Nasoar 1</title>
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <style></style>
     </head>
     <body>
         <div class="navbar">
-            <a href="javascript:;" class="left-square square a-move-left">
+            <a href="javascript:;" class="left-square square a-move-left" style="visibility: hidden;">
                 &larr;
             </a>
-            <a href="javascript:;" class="right-square square a-move-right">
+            <a href="02_slide.html" class="right-square square a-move-right">
                 &rarr;
             </a>
         </div>
@@ -25,219 +25,12 @@
             <div class="button-popup-1" data-toggle="modal" data-target="#modal-1"></div>
         </div>
 
-        <!-- Page 2 -->
-        <div
-            class="main page"
-            style="background-image:url(img/2-min.jpg); display:none;"
-            id="dv-2"
-        >
-            <div class="button-popup-2" data-toggle="modal" data-target="#modal-2"></div>
-            <div class="button-popup-3" data-toggle="modal" data-target="#modal-3"></div>
-            <div class="button-popup-4" data-toggle="modal" data-target="#modal-4"></div>
-            <div class="button-popup-5" data-toggle="modal" data-target="#modal-5"></div>
-        </div>
-
-        <!-- Page 3 -->
-        <div
-            class="main page"
-            style="background-image:url(img/3-min.jpg); display:none;"
-            id="dv-3"
-        >
-            <div class="button-popup-6" data-toggle="modal" data-target="#modal-6"></div>
-            <div class="button-popup-7" data-toggle="modal" data-target="#modal-7"></div>
-            <div class="button-popup-8" data-toggle="modal" data-target="#modal-8"></div>
-            <div class="button-popup-9" data-toggle="modal" data-target="#modal-9"></div>
-            <div class="button-popup-10" data-toggle="modal" data-target="#modal-10"></div>
-        </div>
-
-        <!-- Page 4 -->
-        <div
-            class="main page page-last"
-            style="background-image:url(img/4-min.jpg);  display:none;"
-            id="dv-4"
-        ></div>
-
         <!-- Page 1 Modal 1 -->
         <div id="modal-1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-body">
                         <div class="btn-fechar" data-dismiss="modal"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Page 2 Modal 1 -->
-        <div id="modal-2" class="modal fade rounded-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
-                    <button class="close-button" data-dismiss="modal"></button>
-
-                    <div class="modal-body">
-                        <img class="img-fluid" src="img/2-modal-1.jpg" />
-                    </div>
-
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Page 2 Modal 2 -->
-        <div id="modal-3" class="modal fade rounded-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
-                    <button class="close-button" data-dismiss="modal"></button>
-
-                    <div class="modal-body">
-                        <img class="img-fluid" src="img/2-modal-2.jpg" />
-                    </div>
-
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Page 2 Modal 3 -->
-        <div id="modal-4" class="modal fade rounded-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
-                    <button class="close-button" data-dismiss="modal"></button>
-
-                    <div class="modal-body">
-                        <img class="img-fluid" src="img/2-modal-3.jpg" />
-                    </div>
-
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Page 2 Modal 4 -->
-        <div id="modal-5" class="modal fade rounded-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
-                    <button class="close-button" data-dismiss="modal"></button>
-
-                    <div class="modal-body">
-                        <img class="img-fluid" src="img/2-modal-4.jpg" />
-                    </div>
-
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Page 3 Modal 1 -->
-        <div id="modal-6" class="modal fade rounded-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
-                    <button class="close-button" data-dismiss="modal"></button>
-
-                    <div class="modal-body">
-                        <img class="img-fluid" src="img/3-modal-1.jpg" />
-                    </div>
-
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Page 3 Modal 2 -->
-        <div id="modal-7" class="modal fade rounded-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
-                    <button class="close-button" data-dismiss="modal"></button>
-
-                    <div class="modal-body">
-                        <img class="img-fluid" src="img/3-modal-2.jpg" />
-                    </div>
-
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Page 3 Modal 3 -->
-        <div id="modal-8" class="modal fade rounded-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
-                    <button class="close-button" data-dismiss="modal"></button>
-
-                    <div class="modal-body">
-                        <img class="img-fluid" src="img/3-modal-3.jpg" />
-                    </div>
-
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Page 3 Modal 4 -->
-        <div id="modal-9" class="modal fade rounded-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
-                    <button class="close-button" data-dismiss="modal"></button>
-
-                    <div class="modal-body">
-                        <img class="img-fluid" src="img/3-modal-4.jpg" />
-                    </div>
-
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Page 3 Modal 5 -->
-        <div id="modal-10" class="modal fade rounded-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
-                    <button class="close-button" data-dismiss="modal"></button>
-
-                    <div class="modal-body">
-                        <div class="button-popup-11" data-toggle="modal" data-target="#modal-11" data-dismiss="modal"></div>
-                        <img class="img-fluid" src="img/3-modal-5.jpg" />
-                    </div>
-
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Video Modal -->
-        <div id="modal-11" class="modal fade rounded-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
-                    <button class="close-button" data-dismiss="modal"></button>
-
-                    <div class="modal-body pb-4">
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <video id="myVideoPlayer" controls="true" class="embed-responsive-item">
-                                <source src="img/NASOAR_VIDEO_COMPARATIVO.mp4" type="video/mp4" />
-                            </video>
-                        </div>                        
-                    </div>
-
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
                     </div>
                 </div>
             </div>
